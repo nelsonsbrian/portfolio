@@ -85,3 +85,30 @@ ul {
   border: 1px black solid;
   padding: 10px;
 }
+
+.thumbnail.sponge {
+  height: 200px;
+  width: 200px;
+}
+
+.thumbnail img {
+  margin: 0px;
+}
+
+.thumbnail.feeder {
+  height: 200px;
+  width: 200px;
+}
+
+.caption p {
+  font-size: 12px;
+}
+
+.safeway_col {
+  margin: 5px;
+  padding: 5px;
+}
+
+.safeway_mech {
+  border: black solid 1px;
+}
