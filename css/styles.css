@@ -3,6 +3,10 @@ body {
   margin-bottom: 100px;
 }
 
+span.lang {
+  font-weight: 900;
+}
+
 .heading {
   text-align: center;
 }
@@ -43,7 +47,7 @@ h3 {
   padding: 7px;
 }
 
-.project_headers {
+.chart li.project_headers {
   text-align: center;
   font-weight: bold;
   font-size: 24px;
