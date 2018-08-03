@@ -90,19 +90,29 @@ h3 {
   padding: 10px;
 }
 
-.thumbnail.sponge {
+.thumbnail.sponge, .thumbnail.feeder {
   height: 200px;
   width: 200px;
   margin-left: 10px;
-  margin-right: 0px;
 }
 
 .thumbnail {
   border: black 1px solid ;
 }
 
+.thumbnail.diploma {
+  height: 200px;
+  width: 200px;
+  margin-right: 0px;
+}
 
-.thumbnail.feeder {
+.thumbnail.garden, .thumbnail.wtrhtr {
+  height: 200px;
+  width: 200px;
+  margin-right: 0px;
+}
+
+.thumbnail.ice, .thumbnail.falls {
   height: 200px;
   width: 200px;
   margin-right: 0px;
@@ -119,7 +129,27 @@ h3 {
 
 .safeway_mech {
   border: black solid 1px;
+  background-color: lightblue;
+}
+
+.hobby {
+  border: black solid 1px;
+  background-color: lightgreen;
+}
+
+.college {
+  border: black solid 1px;
+  background-color: orange;
+}
+
+.epicodus {
+  border: black solid 1px;
   background-color: lightyellow;
+}
+
+.travel {
+  border: black solid 1px;
+  background-color: purple;
 }
 
 .background .row h3 {
