@@ -17,13 +17,21 @@ body {
   font-family: sans-serif;
 }
 
-li {
+.chart li {
   list-style-type: none;
   border: 1px solid black;
   height: 40px;
   line-height: 38px;
   padding-left: 5px;
   font-size: 14px;
+  background-color: #d3f9ff;
+}
+
+h4 {
+  font-weight: bold;
+}
+.goals li {
+  background-color: inherit;
 }
 
 ul {
@@ -32,7 +40,7 @@ ul {
 }
 
 h3 {
-  padding: 5px;
+  padding: 7px;
 }
 
 .project_headers {
@@ -40,6 +48,7 @@ h3 {
   font-weight: bold;
   font-size: 24px;
   height: 38px;
+  background-color: #07d4ef;
 }
 
 .project_title, .project_desc, .project_lang, .project_link {
@@ -122,34 +131,43 @@ h3 {
   font-size: 12px;
 }
 
+.epicodus, .safeway_mech, .college, .hobby, .travel, .about_me, .why_coding {
+  border: black solid 1px;
+  border-radius: 15px
+
+}
+
 .safeway_col {
   margin: 0px;
   padding: 5px;
 }
 
 .safeway_mech {
-  border: black solid 1px;
-  background-color: lightblue;
+  background: linear-gradient(to top left, #41dcf4, #2d9eef);
 }
 
 .hobby {
-  border: black solid 1px;
-  background-color: lightgreen;
+  background: linear-gradient(to top left, #00f98d, #01ad62);
 }
 
 .college {
-  border: black solid 1px;
-  background-color: orange;
+  background: linear-gradient(to top left, #ed8d61, #e83a3a);
 }
 
 .epicodus {
-  border: black solid 1px;
-  background-color: lightyellow;
+  background: linear-gradient(to top left, #efe164, #efb521);
 }
 
 .travel {
-  border: black solid 1px;
-  background-color: purple;
+  background: linear-gradient(to top left, #f442e8, #8b20ef);
+}
+
+.about_me {
+  background: linear-gradient(to top left, #00f98d, #01ad62);
+}
+
+.why_coding {
+  background: linear-gradient(to top left, #f442e8, #8b20ef);
 }
 
 .background .row h3 {
