@@ -31,6 +31,10 @@ ul {
   padding: 0px;
 }
 
+h3 {
+  padding: 5px;
+}
+
 .project_headers {
   text-align: center;
   font-weight: bold;
@@ -89,15 +93,19 @@ ul {
 .thumbnail.sponge {
   height: 200px;
   width: 200px;
+  margin-left: 10px;
+  margin-right: 0px;
 }
 
-.thumbnail img {
-  margin: 0px;
+.thumbnail {
+  border: black 1px solid ;
 }
+
 
 .thumbnail.feeder {
   height: 200px;
   width: 200px;
+  margin-right: 0px;
 }
 
 .caption p {
@@ -105,10 +113,15 @@ ul {
 }
 
 .safeway_col {
-  margin: 5px;
+  margin: 0px;
   padding: 5px;
 }
 
 .safeway_mech {
   border: black solid 1px;
+  background-color: lightyellow;
+}
+
+.background .row h3 {
+  font-weight: bold;
 }
