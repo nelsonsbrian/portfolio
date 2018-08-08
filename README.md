@@ -8,6 +8,8 @@
 
 _A simple webpage that links to projects that Brian Nelson has completed and has published to github. The webpage also has an 'about me' and other background information on him._
 
+_Please see: https://nelsonsbrian.github.io/portfolio/_
+
 ## Support and contact details
 
 _submit bugs or ideas to nelsonsbrian@gmail.com_
